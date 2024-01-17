@@ -1,0 +1,8 @@
+{
+    "layers": {
+        "initial_age": "..\\00_preprocessing\\inv_age_2019\\CA_forest_age_2019_ndv.tif"
+    },
+    "rollback": {
+        "inventory_year": 2019
+    }
+}

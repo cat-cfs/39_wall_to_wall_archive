@@ -1,0 +1,44 @@
+{
+    "disturbances": {
+        "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\03_insect_mpb_pre_2018\\*.shp": {
+            "year": "filename",
+            "disturbance_type": "PEST_SEVER",
+            "lookup_table": "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\insect_mpb_pre_2018.csv"
+        },
+        "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\04_insect_mpb_2018_2021\\*.shp": {
+            "year": "filename",
+            "disturbance_type": "SEVERITY",
+            "lookup_table": "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\insect_mpb_2018_2021.csv"
+        },
+        "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\05_insect_ibb_pre_2018\\*.shp": {
+            "year": "filename",
+            "disturbance_type": "PEST_SEVER",
+            "lookup_table": "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\insect_ibb_pre_2018.csv"
+        },
+        "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\06_insect_ibb_2018_2021\\*.shp": {
+            "year": "filename",
+            "disturbance_type": "SEVERITY",
+            "lookup_table": "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\insect_ibb_2018_2021.csv"
+        },
+        "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\07_insect_ibs_pre_2018\\*.shp": {
+            "year": "filename",
+            "disturbance_type": "PEST_SEVER",
+            "lookup_table": "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\insect_ibs_pre_2018.csv"
+        },
+        "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\08_insect_ibs_2018_2021\\*.shp": {
+            "year": "filename",
+            "disturbance_type": "SEVERITY",
+            "lookup_table": "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\insect_ibs_2018_2021.csv"
+        },
+        "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\09_insect_ibd_pre_2018\\*.shp": {
+            "year": "filename",
+            "disturbance_type": "PEST_SEVER",
+            "lookup_table": "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\insect_ibd_pre_2018.csv"
+        },
+        "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\10_insect_ibd_2018_2021\\*.shp": {
+            "year": "filename",
+            "disturbance_type": "SEVERITY",
+            "lookup_table": "..\\00_preprocessing\\dist_pest_bc_1990_2020\\bc_gcbm_layers\\insect_ibd_2018_2021.csv"
+        }
+    }
+}

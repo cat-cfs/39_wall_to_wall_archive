@@ -1,0 +1,71 @@
+{
+    "end_year": 2020,
+    "resolution": 0.001,
+    "gcbm_config_templates": "..\\..\\03_tools_archive\\gcbm_config_templates",
+    "aidb": "..\\00_preprocessing\\aspatial\\archive_index\\casfri_archive_index.mdb",
+    "disturbance_order": "disturbance_order.txt",
+    "bounding_box": {
+        "layer": "..\\00_preprocessing\\inv_species_2019\\CA_forest_LdSp_ExtentByProv.shp"
+    },
+    "rollback": {
+        "prioritize_disturbances": true,
+        "single_draw": true,
+        "establishment_disturbance_type": "establishment_disturbance_type_distribution.json",
+        "age_distribution": "..\\00_preprocessing\\dist_harvest_age_class_distributions\\BGI_age_at_disturbance.json"
+    },
+    "classifiers": {
+        "RU": {
+            "layer": "..\\00_preprocessing\\env_pspu\\pspus_2016.shp",
+            "attribute": "Reconcilia"
+        },
+        "Ownership": {
+            "layer": "..\\00_preprocessing\\inv_park_private_indig_code\\Canada_MFv2020\\Canada_MFv2020.tif",
+            "values_path": "..\\00_preprocessing\\inv_park_private_indig_code\\Canada_MFv2020\\Canada_MFv2020.csv"
+        },
+        "SalvageAccessible": {
+            "layer": "..\\00_preprocessing\\data_analysis\\salvage\\salvage_mask_big.tif",
+            "values_col": "wildcard"
+        }
+    },
+    "layers": {
+        "mean_annual_temperature": "..\\00_preprocessing\\env_climate\\NAmerica_MAT_1971_2000.tif",
+        "admin_boundary": {
+            "layer": "..\\00_preprocessing\\env_pspu\\pspus_2016.shp",
+            "attribute": "ProvinceNa"
+        },
+        "eco_boundary": {
+            "layer": "..\\00_preprocessing\\env_pspu\\pspus_2016.shp",
+            "attribute": "EcoBound_1"
+        }
+    },
+    "disturbances": {
+        "..\\00_preprocessing\\data_analysis\\historic_fire_HFRZ\\output_datasets\\Fires_1950to2020v2\\Fires_HFR_Joinedv3.shp": {
+            "disturbance_type": "Wildfire",
+            "year": "YEAR",
+            "filters": {
+                "year": "(0, 1989)"
+            }
+        },
+        "..\\00_preprocessing\\dist_fire_severity_canlabs_1986_2020\\fire_sev_years\\*.tif": {
+            "filters": {
+                "year": "(1990, 2020)"
+            },
+            "lookup_table": "..\\00_preprocessing\\dist_fire_severity_canlabs_1986_2020\\fire_sev_years.csv"
+        },
+        "fire_2021": {
+            "pattern": "..\\00_preprocessing\\dist_fire_perimeter_2021_2022_2023\\2021\\cc_apt_buf.shp",
+            "year": 2021,
+            "disturbance_type": "Wildfire"
+        },
+        "fire_2022": {
+            "pattern": "..\\00_preprocessing\\dist_fire_perimeter_2021_2022_2023\\2022\\cc_apt_buf.shp",
+            "year": 2022,
+            "disturbance_type": "Wildfire"
+        },
+        "fire_2023": {
+            "pattern": "..\\00_preprocessing\\dist_fire_perimeter_2021_2022_2023\\2023\\perimeters.shp",
+            "year": 2023,
+            "disturbance_type": "Wildfire"
+        }
+    }
+}

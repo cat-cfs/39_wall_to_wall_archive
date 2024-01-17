@@ -1,0 +1,12 @@
+{
+        "disturbances": {
+            "..\\00_preprocessing\\dist_harvest_ab_2023_ID0018\\Data\\10TM_Offset\\AlbertaVegetationInventoryCrown.gdb": {
+                "layer": "AVI_PostInventoryHarvest",
+                "disturbance_type": "94% clear-cut",
+                "age_after": 0,
+                "filters": {
+                    "year": "(0, 2020)"
+                }
+            }
+        }
+}

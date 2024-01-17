@@ -1,0 +1,21 @@
+[
+    {
+        "disturbance_year_range": ["[-inf, 1950)"],
+        "distribution": [
+            ["Wildfire - rollback", 1.0]
+        ]
+    },
+    {
+        "disturbance_year_range": ["[1950, inf)"],
+        "distribution": [
+            ["Clearcut harvesting with salvage - rollback", 1.0]
+        ]
+    },
+    {
+        "disturbance_year_range": ["[1950, inf)"],
+        "RU": [3, 13, 14, 21, 25, 26, 27, 31, 32, 33, 34, 35, 40, 44, 45, 46, 49, 50, 51, 52, 54, 58],
+        "distribution": [
+            ["Wildfire - rollback", 1.0]
+        ]
+    }
+]

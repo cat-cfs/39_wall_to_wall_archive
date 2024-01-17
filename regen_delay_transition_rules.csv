@@ -1,0 +1,46 @@
+id,RU,disturbance_type,age_after,regen_delay
+"Salvage","?","Salvage logging after fire",0,0
+"Rehab after fire","?","Rehabilitation after fire",-1,0
+"Future fire, RU 1",1,"Future wildfire - high severity",0,9
+"Future fire, RU 3",3,"Future wildfire - high severity",0,12
+"Future fire, RU 4",4,"Future wildfire - high severity",0,10
+"Future fire, RU 5",5,"Future wildfire - high severity",0,7
+"Future fire, RU 6",6,"Future wildfire - high severity",0,7
+"Future fire, RU 7",7,"Future wildfire - high severity",0,8
+"Future fire, RU 11",11,"Future wildfire - high severity",0,11
+"Future fire, RU 12",12,"Future wildfire - high severity",0,6
+"Future fire, RU 13",13,"Future wildfire - high severity",0,10
+"Future fire, RU 14",14,"Future wildfire - high severity",0,13
+"Future fire, RU 15",15,"Future wildfire - high severity",0,11
+"Future fire, RU 16",16,"Future wildfire - high severity",0,11
+"Future fire, RU 17",17,"Future wildfire - high severity",0,6
+"Future fire, RU 18",18,"Future wildfire - high severity",0,11
+"Future fire, RU 19",19,"Future wildfire - high severity",0,7
+"Future fire, RU 21",21,"Future wildfire - high severity",0,13
+"Future fire, RU 22",22,"Future wildfire - high severity",0,12
+"Future fire, RU 23",23,"Future wildfire - high severity",0,9
+"Future fire, RU 25",25,"Future wildfire - high severity",0,10
+"Future fire, RU 26",26,"Future wildfire - high severity",0,13
+"Future fire, RU 27",27,"Future wildfire - high severity",0,11
+"Future fire, RU 28",28,"Future wildfire - high severity",0,10
+"Future fire, RU 31",31,"Future wildfire - high severity",0,7
+"Future fire, RU 32",32,"Future wildfire - high severity",0,10
+"Future fire, RU 33",33,"Future wildfire - high severity",0,6
+"Future fire, RU 34",34,"Future wildfire - high severity",0,8
+"Future fire, RU 36",36,"Future wildfire - high severity",0,8
+"Future fire, RU 38",38,"Future wildfire - high severity",0,8
+"Future fire, RU 39",39,"Future wildfire - high severity",0,11
+"Future fire, RU 40",40,"Future wildfire - high severity",0,8
+"Future fire, RU 41",41,"Future wildfire - high severity",0,9
+"Future fire, RU 42",42,"Future wildfire - high severity",0,8
+"Future fire, RU 44",44,"Future wildfire - high severity",0,8
+"Future fire, RU 45",45,"Future wildfire - high severity",0,7
+"Future fire, RU 46",46,"Future wildfire - high severity",0,11
+"Future fire, RU 47",47,"Future wildfire - high severity",0,7
+"Future fire, RU 50",50,"Future wildfire - high severity",0,9
+"Future fire, RU 51",51,"Future wildfire - high severity",0,12
+"Future fire, RU 52",52,"Future wildfire - high severity",0,5
+"Future fire, RU 53",53,"Future wildfire - high severity",0,11
+"Future fire, RU 54",54,"Future wildfire - high severity",0,12
+"Future fire, RU 58",58,"Future wildfire - high severity",0,15
+"Future fire, RU 59",59,"Future wildfire - high severity",0,10

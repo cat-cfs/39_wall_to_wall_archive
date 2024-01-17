@@ -1,0 +1,8 @@
+{
+    "layers": {
+        "initial_age": "..\\00_preprocessing\\inv_age_kNN_2001_2011\\2011-attributes_attributs-2011\\NFI_MODIS250m_2011_kNN_Structure_Stand_Age_v1_0_removed.tif"
+    },
+    "rollback": {
+        "inventory_year": 2011
+    }
+}

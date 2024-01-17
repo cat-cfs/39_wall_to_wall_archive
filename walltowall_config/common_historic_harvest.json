@@ -1,0 +1,11 @@
+{
+    "disturbances": {
+        "..\\00_preprocessing\\dist_harvest_ntems_1985_2020\\CA_Forest_Harvest_1985-2020.tif": {
+            "disturbance_type": "Clearcut harvesting with salvage",
+            "age_after": 0,
+            "filters": {
+                "year": "(0, 2020)"
+            }
+        }
+    }
+}

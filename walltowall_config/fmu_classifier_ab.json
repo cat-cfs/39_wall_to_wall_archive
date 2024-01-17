@@ -1,0 +1,9 @@
+{
+    "classifiers": {
+        "FMU": {
+            "layer": "..\\00_preprocessing\\dist_harvest_AAC_by_FMU\\v2_FMU_Harvest\\v2_Canada_FMU2022_uniqueID.shp",
+            "attribute": "UniqueID",
+            "values_col": "wildcard"
+        }
+    }
+}

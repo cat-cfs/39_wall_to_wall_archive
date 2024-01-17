@@ -1,0 +1,10 @@
+{
+    "yield_table": "..\\00_preprocessing\\aspatial\\yields\\yields_2019_species\\yield_table_UngRU.csv",
+    "yield_interval": 1,
+    "classifiers": {
+        "LeadingSpecies": {
+            "layer": "..\\00_preprocessing\\inv_species_2019\\CA_forest_lead_tree_species.tif",
+            "attribute": "NFI code"
+        }
+    }
+}

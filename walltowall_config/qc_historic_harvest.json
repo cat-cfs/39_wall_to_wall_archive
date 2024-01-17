@@ -1,0 +1,23 @@
+{
+    "disturbances": {
+        "QC_Harv_1920_1975": {
+            "pattern": "..\\00_preprocessing\\dist_harvest_qc_1920_2016\\quebec_historic.gdb",
+            "layer": "Harv_1920_1975",
+            "disturbance_type": "97% clear-cut",
+            "age_after": 0
+        },
+        "QC_Harv_1976_2016": {
+            "pattern": "..\\00_preprocessing\\dist_harvest_qc_1920_2016\\quebec_historic.gdb",
+            "layer": "Harv_1976_2016",
+            "disturbance_type": "97% clear-cut",
+            "age_after": 0
+        },
+        "..\\00_preprocessing\\dist_harvest_ntems_1985_2020\\CA_Forest_Harvest_1985-2020.tif": {
+            "disturbance_type": "97% clear-cut",
+            "age_after": 0,
+            "filters": {
+                "year": "(2017, 2020)"
+            }
+        }
+    }
+}

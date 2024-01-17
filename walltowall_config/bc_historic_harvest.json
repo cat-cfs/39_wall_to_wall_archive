@@ -1,0 +1,15 @@
+{
+    "disturbances": {
+        "..\\00_preprocessing\\dist_harvest_bc_1900_2021\\processed\\pre_1990\\consolidated_cut_blocks_1900_1989.shp": {
+            "disturbance_type": "Clearcut harvesting with salvage",
+            "age_after": 0
+        },
+        "..\\00_preprocessing\\dist_harvest_bc_1900_2021\\processed\\post_1990\\consolidated_cut_blocks_1990_2021.shp": {
+            "disturbance_type": "Clearcut harvesting with salvage",
+            "age_after": 0,
+            "filters": {
+                "year": "(0, 2020)"
+            }
+        }
+    }
+}

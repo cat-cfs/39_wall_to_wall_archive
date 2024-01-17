@@ -1,0 +1,183 @@
+Wildfire
+Wildfire - rollback
+Wildfire - low severity
+Wildfire - moderate severity
+Future wildfire - low severity
+Future wildfire - moderate severity
+Future wildfire - high severity
+Fire with salvage logging
+Insect disturbance
+Insect disturbance with salvage logging
+WJPBW - Year 1 of outbreak
+WJPBW - Year 2 of outbreak
+WJPBW - Year 3 of outbreak
+WJPBW - Year 4 of outbreak
+Aspen Defoliators - Type F
+Aspen Defoliators - Type E
+Aspen Defoliators - Type D
+Aspen Defoliators - Type C
+Aspen Defoliators - Type B
+Aspen Defoliators - Type A
+Eastern hemlock looper - Light defoliation
+Eastern hemlock looper - Moderate defoliation
+Eastern hemlock looper - Severe defoliation
+Eastern hemlock looper - Severe cumulative defoliation
+Mountain pine beetle - Very severe impact
+Mountain pine beetle - Severe impact
+Mountain pine beetle - Moderate impact
+Mountain pine beetle - Low impact
+Spruce Beetle, Severe
+Spruce Beetle, Moderate
+Spruce Beetle, Light
+Generic 5% mortality
+Generic 10% mortality
+Generic 15% mortality
+Generic 20% mortality
+Generic 25% mortality
+Generic 30% mortality
+Generic 35% mortality
+Generic 40% mortality
+Generic 45% mortality
+Generic 50% mortality
+Generic 55% mortality
+Generic 60% mortality
+Generic 65% mortality
+Generic 70% mortality
+Generic 75% mortality
+Generic 80% mortality
+Generic 85% mortality
+Generic 90% mortality
+Generic 95% mortality
+Spruce budworm in QC, severe annual defoliation, 6yr cumulative defoliation > 85%
+Spruce budworm in QC, severe annual defoliation, 6yr cumulative defoliation 76-85%
+Spruce budworm in QC, severe annual defoliation, 6yr cumulative defoliation 66-75%
+Spruce budworm in QC, severe annual defoliation, 6yr cumulative defoliation 56-65%
+Spruce budworm in QC, severe annual defoliation, 6yr cumulative defoliation 46-55%
+Spruce budworm in QC, severe annual defoliation, 6yr cumulative defoliation 36-45%
+Spruce budworm in QC, severe annual defoliation, 6yr cumulative defoliation 26-35%
+Spruce budworm in QC, severe annual defoliation, 6yr cumulative defoliation 16-25%
+Spruce budworm in QC, severe annual defoliation, 6yr cumulative defoliation < 16%
+Spruce budworm in QC, moderate annual defoliation, 6yr cumulative defoliation > 85%
+Spruce budworm in QC, moderate annual defoliation, 6yr cumulative defoliation 76-85%
+Spruce budworm in QC, moderate annual defoliation, 6yr cumulative defoliation 66-75%
+Spruce budworm in QC, moderate annual defoliation, 6yr cumulative defoliation 56-65%
+Spruce budworm in QC, moderate annual defoliation, 6yr cumulative defoliation 46-55%
+Spruce budworm in QC, moderate annual defoliation, 6yr cumulative defoliation 36-45%
+Spruce Budworm in QC, moderate annual defoliation, 6yr cumulative defoliation 26-35%
+Spruce budworm in QC, moderate annual defoliation, 6yr cumulative defoliation 16-25%
+Spruce budworm in QC, moderate annual defoliation, 6yr cumulative defoliation < 16%
+Spruce budworm in QC, light annual defoliation, 6yr cumulative defoliation > 85%
+Spruce budworm in QC, light annual defoliation, 6yr cumulative defoliation 76-85%
+Spruce budworm in QC, light annual defoliation, 6yr cumulative defoliation 66-75%
+Spruce budworm in QC, light annual defoliation, 6yr cumulative defoliation 56-65%
+Spruce budworm in QC, light annual defoliation, 6yr cumulative defoliation 46-55%
+Spruce budworm in QC, light annual defoliation, 6yr cumulative defoliation 36-45%
+Spruce budworm in QC, light annual defoliation, 6yr cumulative defoliation 26-35%
+Spruce budworm in QC, light annual defoliation, 6yr cumulative defoliation 16-25%
+Spruce budworm in QC, light annual defoliation, 6yr cumulative defoliation < 16%
+Balsam bark beetle in BC, very severe
+Balsam bark beetle in BC, severe
+Balsam bark beetle in BC, moderate
+Balsam bark beetle in BC, light
+Douglas fir beetle in BC, very severe
+Douglas fir beetle in BC, severe
+Douglas fir beetle in BC, moderate
+Douglas fir beetle in BC, light
+Spruce beetle in BC, very severe
+Spruce beetle in BC, severe
+Spruce beetle in BC, moderate
+Spruce beetle in BC, light
+Spruce budworm in AB, SK, MB, NWT, severe annual defoliation, 6yr cumulative defoliation > 85%
+Spruce budworm in AB, SK, MB, NWT, severe annual defoliation, 6yr cumulative defoliation 76-85%
+Spruce budworm in AB, SK, MB, NWT, severe annual defoliation, 6yr cumulative defoliation 66-75%
+Spruce budworm in AB, SK, MB, NWT, severe annual defoliation, 6yr cumulative defoliation 56-65%
+Spruce budworm in AB, SK, MB, NWT, severe annual defoliation, 6yr cumulative defoliation 46-55%
+Spruce budworm in AB, SK, MB, NWT, severe annual defoliation, 6yr cumulative defoliation 36-45%
+Spruce budworm in AB, SK, MB, NWT, severe annual defoliation, 6yr cumulative defoliation 26-35%
+Spruce budworm in AB, SK, MB, NWT, severe annual defoliation, 6yr cumulative defoliation 16-25%
+Spruce budworm in AB, SK, MB, NWT, severe annual defoliation, 6yr cumulative defoliation < 16%
+Spruce budworm in AB, SK, MB, NWT, moderate annual defoliation, 6yr cumulative defoliation > 85%
+Spruce budworm in AB, SK, MB, NWT, moderate annual defoliation, 6yr cumulative defoliation 76-85%
+Spruce budworm in AB, SK, MB, NWT, moderate annual defoliation, 6yr cumulative defoliation 66-75%
+Spruce budworm in AB, SK, MB, NWT, moderate annual defoliation, 6yr cumulative defoliation 56-65%
+Spruce budworm in AB, SK, MB, NWT, moderate annual defoliation, 6yr cumulative defoliation 46-55%
+Spruce budworm in AB, SK, MB, NWT, moderate annual defoliation, 6yr cumulative defoliation 36-45%
+Spruce budworm in AB, SK, MB, NWT, moderate annual defoliation, 6yr cumulative defoliation 26-35%
+Spruce budworm in AB, SK, MB, NWT, moderate annual defoliation, 6yr cumulative defoliation 16-25%
+Spruce budworm in AB, SK, MB, NWT, moderate annual defoliation, 6yr cumulative defoliation < 16%
+Spruce budworm in AB, SK, MB, NWT, light annual defoliation, 6yr cumulative defoliation > 85%
+Spruce budworm in AB, SK, MB, NWT, light annual defoliation, 6yr cumulative defoliation 76-85%
+Spruce budworm in AB, SK, MB, NWT, light annual defoliation, 6yr cumulative defoliation 66-75%
+Spruce budworm in AB, SK, MB, NWT, light annual defoliation, 6yr cumulative defoliation 56-65%
+Spruce budworm in AB, SK, MB, NWT, light annual defoliation, 6yr cumulative defoliation 46-55%
+Spruce budworm in AB, SK, MB, NWT, light annual defoliation, 6yr cumulative defoliation 36-45%
+Spruce budworm in AB, SK, MB, NWT, light annual defoliation, 6yr cumulative defoliation 26-35%
+Spruce budworm in AB, SK, MB, NWT, light annual defoliation, 6yr cumulative defoliation 16-25%
+Spruce budworm in AB, SK, MB, NWT, light annual defoliation, 6yr cumulative defoliation < 16%
+Natural succession
+Natural Succession - Stand mortality
+Natural nonforest rehabilitation
+Stand replacing natural succession
+Slashburn following clearcut
+Clearcut harvesting with salvage
+Clearcut harvesting with salvage - rollback
+Partial cutting
+Clear-cut with slash-burn
+Salvage logging after fire
+Salvage logging after insects
+25% commercial thinning
+30% commercial thinning
+35% commercial thinning
+40% commercial thinning
+45% commercial thinning
+50% commercial thinning
+55% commercial thinning
+60% commercial thinning
+65% commercial thinning
+70% commercial thinning
+75% commercial thinning
+94% clear-cut
+97% clear-cut
+85% precommercial thinning
+20% commercial thinning
+15% commercial thinning
+10% commercial thinning
+Clearcut harvesting without salvage
+Roads and landings
+Deforestation
+Deforestation - Hydro - Right-of-way - Salvage and burn
+Deforestation - Hydro - Right-of-way - Salvage and decay
+Deforestation - Hydro reservoir - Salvage and decay
+Deforestation - Hydro reservoir - No salvage or burn
+Deforestation - Oil and gas - Salvage and burn
+Deforestation - Oil and gas - Salvage and decay
+Deforestation - Agriculture - Salvage, uprooting and decay
+Deforestation - Agriculture - Salvage, uprooting and burn
+Deforestation - Forestry - Salvage, uprooting and decay
+Deforestation - Forestry - Salvage, uprooting and burn
+Deforestation - Hydro reservoir - Burn
+Deforestation - Industry - Salvage, uprooting and decay
+Deforestation - Industry - Salvage, uprooting and burn
+Deforestation - Oil and gas - Salvage, uprooting and decay
+Deforestation - Oil and gas - Salvage, uprooting and burn
+Deforestation - Mining - Salvage, uprooting and decay
+Deforestation - Mining - Salvage, uprooting and burn
+Deforestation - Municipal - Salvage, uprooting and decay
+Deforestation - Municipal - Salvage, uprooting and burn
+Deforestation - Peat mining - Uprooting and decay
+Deforestation - Peat mining - Uprooting and burn
+Deforestation - Recreation - Salvage and burn
+Deforestation - Recreation - Salvage and decay
+Deforestation - Recreation - Salvage, uprooting and decay
+Deforestation - Recreation - Salvage, uprooting and burn
+Deforestation - Transportation - Salvage, uprooting and decay
+Deforestation - Transportation - Salvage, uprooting and burn
+Deforestation - Hydro reservoir - salvage and burn
+Unknown
+Afforestation
+Planting
+Firewood collection - SW
+Firewood collection - HW
+Firewood collection - MW
+Firewood collection - unused
+Rehabilitation after fire
