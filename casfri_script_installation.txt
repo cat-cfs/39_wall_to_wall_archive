@@ -1,0 +1,14 @@
+Extracts from postgres casfri database nifd, performs some basic analysis with report generation, and formats data for CBM and yield processing.
+
+Installation:
+pip install git+https://github.com/cat-cfs/nifd_casfri_preprocessing
+Running pip will install the following apps into your python environment:
+
+1) nifd_casfri_extract - reads information from casfri postgres database, writes attribute tables as parquet files, rasterizes geometry and also uses gdalwarp to produce a wgs-84 version of the raster.
+
+2) nifd_casfri_summary - produce a jupyter-notebook based summary of the data found in a specified casfri inventory, includes histograms of defined variables and summary of null or undefined variables.
+
+3) nifd_casfri_process - produces layers suitable for GCBM steps: age, classifier and disturbance geotiffs in wgs-84projection along with attribute tables.
+
+nifd_casfri_summary example for PEI Inventory 01:
+nifd_casfri_summary –inventory_id PE01 –raw_table_dir ./parquet_datasets/PE01 –report_output_dir ./reports/PE01
