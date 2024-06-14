@@ -9,7 +9,7 @@ from gcbmwalltowall.application.walltowall import run
 
 if __name__ == "__main__":
     compile_results_config_path = Path().absolute().parent.joinpath(
-        r"03_tools_archive\compile_results\compileresults.json"
+        r"03_tools_archive\compile_results\compileresults_trimmed.json"
     )
 
     log_path = Path().joinpath("walltowall_run_cluster.log")
@@ -22,7 +22,7 @@ if __name__ == "__main__":
         parts = str(gcbm_config_path).split("15_seww_runs")[1].split("\\")
         title = f"{parts[1]}_{parts[2].split('_')[2]}_{parts[3]}_{parts[4]}"
 
-        if "medium" in title:
+        if "low" in title:
             run(SimpleNamespace(
                 host="cluster",
                 config_path=None,

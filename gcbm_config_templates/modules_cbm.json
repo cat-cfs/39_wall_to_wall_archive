@@ -16,55 +16,7 @@
             "order": 3,
             "library": "moja.modules.cbm",
             "settings": {
-                "vars": [],
-                "conditions": [
-                    {
-                        "disturbance_type": "Rehabilitation after fire",
-                        "run_conditions": [{
-                            "softwood_leading_species_id": [">=", 0],
-                            "SalvageAccessible": 1,
-                            "disturbance_sequence": [["Future wildfire - moderate severity", 0]]
-                        }]
-                    },
-                    {
-                        "disturbance_type": "Rehabilitation after fire",
-                        "run_conditions": [{
-                            "softwood_leading_species_id": [">=", 0],
-                            "SalvageAccessible": 1,
-                            "disturbance_sequence": [["Future wildfire - high severity", 0]]
-                        }]
-                    },
-                    {
-                        "disturbance_type": "Rehabilitation after fire",
-                        "override_disturbance_type": "Salvage logging after fire",
-                        "override_conditions": [{"disturbance_sequence": [["any", 0, ">=", 40]]}]
-                    },
-                    {
-                        "disturbance_type": "Future wildfire - high severity",
-                        "disturbance_sequence": [["Wildfire", 10]],
-                        "run_conditions": [{"age": ["<", 0]}]
-                    },
-                    {
-                        "disturbance_type": "Future wildfire - high severity",
-                        "disturbance_sequence": [["Wildfire - rollback", 10]],
-                        "run_conditions": [{"age": ["<", 0]}]
-                    },
-                    {
-                        "disturbance_type": "Future wildfire - high severity",
-                        "disturbance_sequence": [["Future wildfire - high severity", 10]],
-                        "run_conditions": [{"age": ["<", 0]}]
-                    },
-                    {
-                        "disturbance_type": "Future wildfire - high severity",
-                        "override_disturbance_type": "Future wildfire - low severity",
-                        "override_conditions": [{"fire_severity": ["=", 0]}]
-                    },
-                    {
-                        "disturbance_type": "Future wildfire - high severity",
-                        "override_disturbance_type": "Future wildfire - moderate severity",
-                        "override_conditions": [{"fire_severity": ["=", 1]}]
-                    }
-                ]
+                "vars": []
             }
         },
         "CBMDisturbanceEventModule": {

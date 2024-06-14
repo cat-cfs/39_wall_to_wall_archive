@@ -1,0 +1,114 @@
+{
+    "Modules": {
+        "CBMBuildLandUnitModule": {
+            "order": 1,
+            "library": "moja.modules.cbm",
+            "settings": {
+                "mask_vars": ["initial_age", "RU", "LeadingSpecies", "growth_curve_id"]
+            }
+        },
+        "CBMSequencer": {
+            "order": 2,
+            "library": "moja.modules.cbm"
+        },
+        "CBMDisturbanceListener": {
+            "enabled": true,
+            "order": 3,
+            "library": "moja.modules.cbm",
+            "settings": {
+                "vars": [],
+                "conditions": [
+                    {
+                        "disturbance_type": "Rehabilitation after fire",
+                        "run_conditions": [{
+                            "softwood_leading_species_id": [">=", 0],
+                            "SalvageAccessible": 1,
+                            "disturbance_sequence": [["Future wildfire - moderate severity", 0]]
+                        }]
+                    },
+                    {
+                        "disturbance_type": "Rehabilitation after fire",
+                        "run_conditions": [{
+                            "softwood_leading_species_id": [">=", 0],
+                            "SalvageAccessible": 1,
+                            "disturbance_sequence": [["Future wildfire - high severity", 0]]
+                        }]
+                    },
+                    {
+                        "disturbance_type": "Rehabilitation after fire",
+                        "override_disturbance_type": "Salvage logging after fire",
+                        "override_conditions": [{"disturbance_sequence": [["any", 0, ">=", 40]]}]
+                    },
+                    {
+                        "disturbance_type": "Future wildfire - high severity",
+                        "disturbance_sequence": [["Wildfire", 10]],
+                        "run_conditions": [{"age": ["<", 0]}]
+                    },
+                    {
+                        "disturbance_type": "Future wildfire - high severity",
+                        "disturbance_sequence": [["Wildfire - rollback", 10]],
+                        "run_conditions": [{"age": ["<", 0]}]
+                    },
+                    {
+                        "disturbance_type": "Future wildfire - high severity",
+                        "disturbance_sequence": [["Future wildfire - high severity", 10]],
+                        "run_conditions": [{"age": ["<", 0]}]
+                    },
+                    {
+                        "disturbance_type": "Future wildfire - high severity",
+                        "override_disturbance_type": "Future wildfire - low severity",
+                        "override_conditions": [{"fire_severity": ["=", 0]}]
+                    },
+                    {
+                        "disturbance_type": "Future wildfire - high severity",
+                        "override_disturbance_type": "Future wildfire - moderate severity",
+                        "override_conditions": [{"fire_severity": ["=", 1]}]
+                    }
+                ]
+            }
+        },
+        "CBMDisturbanceEventModule": {
+            "enabled": true,
+            "order": 4,
+            "library": "moja.modules.cbm"
+        },
+        "CBMTransitionRulesModule": {
+            "enabled": true,
+            "order": 5,
+            "library": "moja.modules.cbm",
+            "settings": {
+                "smoother_enabled": false
+            }
+        },
+         "CBMLandClassTransitionModule": {
+            "enabled": true,
+            "order": 6,
+            "library": "moja.modules.cbm"
+        },
+        "CBMGrowthModule": {
+            "enabled": true,
+            "order": 7,
+            "library": "moja.modules.cbm",
+            "settings": {
+                "smoother_enabled": false
+            }
+        },
+         "CBMDecayModule": {
+            "enabled": true,
+            "order": 8,
+            "library": "moja.modules.cbm",
+            "settings": {
+                "extra_decay_removals": false
+            }
+        },
+         "CBMAgeIndicators": {
+            "enabled": true,
+            "order": 9,
+            "library": "moja.modules.cbm"
+        },
+        "TransactionManagerAfterSubmitModule": {
+            "order": 10,
+            "library": "internal.flint"
+        }
+    }
+}

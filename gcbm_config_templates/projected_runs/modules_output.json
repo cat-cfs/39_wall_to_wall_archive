@@ -7,12 +7,33 @@
             "settings": {
                 "items": [
                     {
+                        "pool_name": [
+                            "SoftwoodMerch",
+                            "HardwoodMerch"
+                        ],
+                        "data_name": "Merch_C",
+                        "enabled": true,
+                        "variable_data_type": "float",
+                        "on_notification": "OutputStep"
+                    },
+                    {
                         "variable_data_type": "float",
                         "flux": {
                             "to": ["Products"],
                             "flux_source": "disturbance"
                         },
                         "data_name": "all_to_products",
+                        "enabled": true,
+                        "on_notification": "OutputStep"
+                    },
+                    {
+                        "variable_data_type": "float",
+                        "flux": {
+                            "to": ["Products"],
+                            "flux_source": "disturbance",
+                            "disturbance_types": ["Salvage logging after fire"]
+                        },
+                        "data_name": "post_fire_salvage_to_products",
                         "enabled": true,
                         "on_notification": "OutputStep"
                     },
@@ -29,16 +50,6 @@
                         "variable_data_type": "Int16",
                         "on_notification": "OutputStep",
                         "variable_name": "age"
-                    },
-                    {
-                        "pool_name": [
-                            "SoftwoodMerch",
-                            "HardwoodMerch"
-                        ],
-                        "data_name": "Merch_C",
-                        "enabled": true,
-                        "variable_data_type": "float",
-                        "on_notification": "OutputStep"
                     },
                     {
                         "pool_name": [
@@ -384,7 +395,7 @@
                             }
                         ],
                         "data_name": "Delta_Total_Ecosystem",
-                        "enabled": true,
+                        "enabled": false,
                         "on_notification": "OutputStep"
                     },
                     {
@@ -476,7 +487,7 @@
                             }
                         ],
                         "data_name": "Delta_Total_Biomass",
-                        "enabled": true,
+                        "enabled": false,
                         "on_notification": "OutputStep"
                     },
                     {
@@ -533,7 +544,7 @@
                             }
                         ],
                         "data_name": "Delta_Total_DOM",
-                        "enabled": true,
+                        "enabled": false,
                         "on_notification": "OutputStep"
                     },
                     {

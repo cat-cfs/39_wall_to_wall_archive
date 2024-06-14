@@ -315,7 +315,6 @@ if __name__ == "__main__":
         province = province_root.name.split("_")[1]
 
         province_output_root = output_root.joinpath(province)
-        shutil.rmtree(province_output_root, ignore_errors=True)
         province_output_root.mkdir(parents=True, exist_ok=True)
         
         merged_inventories = list(filter(
@@ -333,11 +332,11 @@ if __name__ == "__main__":
             for scenario in ("BAU", "A"):
                 for fire_draw_dir in fire_draw_root.rglob("draw*"):
                     fire_draw_title = "_".join((fire_draw_dir.parent.name, fire_draw_dir.name))
-                    if "medium" not in fire_draw_title:
-                        continue
                     logging.info(f"Processing {province}/{inventory}/{fire_draw_title}/{scenario}")
                     
                     scenario_dir = province_output_root.joinpath(inventory, fire_draw_title, scenario)
+                    shutil.rmtree(scenario_dir, ignore_errors=True)
+
                     scenario_input_dir = scenario_dir.joinpath("input_database")
                     scenario_gcbm_config_dir = scenario_dir.joinpath("gcbm_project")
                     scenario_layers_dir = scenario_dir.joinpath(r"layers\tiled")
@@ -349,10 +348,12 @@ if __name__ == "__main__":
                         base_project_dir, scenario_layers_dir, province_mask,
                         fire_draw_dir, preprocessing_root, scenario == "A")
                     
+                    base_input_db_path = base_project_dir.joinpath(r"input_database\rollback_gcbm_input.db")
+                    if not base_input_db_path.exists():
+                        base_input_db_path = base_project_dir.joinpath("input_database\gcbm_input.db")
+
                     scenario_input_db_path = scenario_input_dir.joinpath("gcbm_input.db")
-                    shutil.copyfile(
-                        base_project_dir.joinpath(r"input_database\gcbm_input.db"),
-                        scenario_input_db_path)
+                    shutil.copyfile(base_input_db_path, scenario_input_db_path)
                         
                     load_transition_rules(scenario_input_db_path, transition_rules_path)
                     load_fuel_bed_tables(scenario_input_db_path)
@@ -362,9 +363,18 @@ if __name__ == "__main__":
                         str(scenario_layers_dir)
                     ]
                     
+                    rollback_layers_dir = base_project_dir.joinpath(r"layers\rollback")
+                    if rollback_layers_dir.exists():
+                        tiled_layer_paths.append(str(rollback_layers_dir))
+                    
                     future_harvest_layers_dir = future_harvest_root.joinpath(province_root.name, "merged")
                     if future_harvest_layers_dir.exists():
                         tiled_layer_paths.append(str(future_harvest_layers_dir))
+                        
+                    exclusions = ["merged_index"]
+                    exclusions_path = rollback_layers_dir.joinpath("exclusions.txt")
+                    if exclusions_path.exists():
+                        exclusions.extend([line[0] for line in csv.reader(open(exclusions_path, "r"))])
                     
                     GCBMConfigurer(
                         tiled_layer_paths,
@@ -373,5 +383,5 @@ if __name__ == "__main__":
                         str(scenario_gcbm_config_dir),
                         1990, 2070,
                         [line.replace("\n", "") for line in open(r"00_walltowall_config\disturbance_order.txt")],
-                        ["merged_index"]
+                        exclusions
                     ).configure()

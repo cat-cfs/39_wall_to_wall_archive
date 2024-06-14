@@ -1,5 +1,21 @@
 {
     "Variables": {
+        "elevation": 100,
+        "fire_severity": {
+            "transform": {
+                "type": "FireSeverityTransform",
+                "library": "gcbm.fireseverity.modules.fireseverity",
+                "provider": "SQLite"
+            }
+        },
+        "fire_severity_details": {
+            "transform": {
+                "type": "FireSeverityTransform",
+                "library": "gcbm.fireseverity.modules.fireseverity",
+                "provider": "SQLite",
+                "debug": true
+            }
+        },
         "current_disturbance": "",
         "default_disturbance_order": {
             "transform": {
